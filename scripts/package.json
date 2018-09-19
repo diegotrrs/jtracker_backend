@@ -1,0 +1,17 @@
+{
+  "name": "jtracker",
+  "dependencies": {
+    "firebase-admin": "^5.11.0",
+    "minimist": "^1.2.0",
+    "parse": "^1.11.1"
+  },
+  "scripts": {
+    "zzz": "babel src --out-dir compiled && node ./compiled/main.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}

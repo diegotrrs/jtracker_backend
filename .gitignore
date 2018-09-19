@@ -1,0 +1,13 @@
+.vscode
+functions/node_modules
+functions/dist
+
+
+# Dependency directories
+
+scripts/node_modules
+scripts/compiled/*
+
+.vscode
+
+functions/firebase-debug.log
